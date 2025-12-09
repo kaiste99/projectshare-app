@@ -1,0 +1,22 @@
+{
+    "name": "projectshare/app",
+    "description": "Project Sharing and Stakeholder Communication Platform",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8",
+        "firebase/php-jwt": "^6.8",
+        "league/oauth2-client": "^2.7",
+        "league/oauth2-google": "^4.0",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public"
+    }
+}
